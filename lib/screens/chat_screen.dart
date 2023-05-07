@@ -53,8 +53,8 @@ class _ChatScreenState extends State<ChatScreen> {
       appBar: AppBar(
         elevation: 2,
         leading: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Image.asset(AppImages.openaiLogo),
+          padding: const EdgeInsets.only(left: 12.0, top: 8.0, bottom: 8.0),
+          child: Image.asset(AppImages.chatLogo),
         ),
         title: const Text('My Chat GPT'),
         actions: const [

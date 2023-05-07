@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../utils/app_colors.dart';
-import 'drop_down.dart';
-import 'text_widget.dart';
+import './drop_down.dart';
+import './text_widget.dart';
 
 class Services {
   static Future<void> showModelBottomSheet({required BuildContext context}) async {
