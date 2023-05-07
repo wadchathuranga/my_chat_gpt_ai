@@ -1,7 +1,8 @@
 class AppImages {
-  static const String chatLogo = "assets/images/chat_logo.png";
-  static const String openaiLogo = "assets/images/openai_logo.png";
-  static const String personImg = "assets/images/person.jpg";
+  static String imagePath = "assets/images";
+  static String userImage = "$imagePath/person.png";
+  static String botImage = "$imagePath/chat_logo.png";
+  static String openaiLogo = "$imagePath/openai_logo.jpg";
 }
 
 
