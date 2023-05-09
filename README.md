@@ -6,11 +6,11 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## --- Bugs ---
+### 1. models change dropdown button looping (due to "future.builder" change into "ListView.builder")
+### 2. when screen orientation portrait, when keyboard open render pixel overflow error happen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## --- Further Development ---
+### * add splash screen
+### * add about screen
+### * login / logout (using chatGPT authentication)
